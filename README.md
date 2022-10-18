@@ -205,15 +205,9 @@ https://example.com
 
 add or remove code in the ```./php-fpm/php/conf.d/security.ini``` file for custom php.ini configurations
 
-Copy and paste the following code in the ```./php-fpm/php-fpm.d/z-www.conf``` file for php-fpm configurations at 1Gb Ram Host
+[https://www.php.net/manual/en/configuration.file.php](https://www.php.net/manual/en/configuration.file.php)
 
-```
-pm.max_children = 19
-pm.start_servers = 4
-pm.min_spare_servers = 2
-pm.max_spare_servers = 4
-pm.max_requests = 1000
-```
+add or remove code in the ```./php-fpm/php-fpm.d/z-www.conf``` file for php-fpm configurations
 
 Or you should make changes custom host configurations then must restart service
 
@@ -221,8 +215,18 @@ Or you should make changes custom host configurations then must restart service
 docker container restart fat-free
 ```
 
+FPM uses php.ini syntax for its configuration file - php-fpm.conf, and pool configuration files.
+
+[https://www.php.net/manual/en/install.fpm.configuration.php](https://www.php.net/manual/en/install.fpm.configuration.php)
+
 add and/or remove fat-free site folders and files with any ftp client program in ```./fat-free/webapp``` folder.
 <br />You can also visit `https://example.com` to access website after starting the containers.
+
+#### Webserver
+
+add or remove code in the ```./apache2/extra/httpd-ssl.conf``` file for custom apache2/httpd configurations
+
+[https://httpd.apache.org/docs/2.4/en/configuring.html](https://httpd.apache.org/docs/2.4/en/configuring.html)
 
 #### Database
 
@@ -234,7 +238,7 @@ $db=new DB\SQL(
 );
 ```
 
-[https://fatfreeframework.com/3.8/cache](https://fatfreeframework.com/3.8/databases)
+[https://fatfreeframework.com/3.8/databases](https://fatfreeframework.com/3.8/databases)
 
 #### Redis and HTTP Caching
 
