@@ -234,13 +234,13 @@ $db=new DB\SQL(
 );
 ```
 
-[Details](https://fatfreeframework.com/3.8/cache#Instantiation)
+[https://fatfreeframework.com/3.8/cache](https://fatfreeframework.com/3.8/databases)
 
 #### Redis and HTTP Caching
 
 There is a good Cache Engine User Guide that covers how the cache engine works and gives you tips to improve your application and your database queries, as they can be cached by F3 as well. You really should have read it.
 
-[Details](https://fatfreeframework.com/3.8/cache#Instantiation)
+[https://fatfreeframework.com/3.8/cache](https://fatfreeframework.com/3.8/cache)
 
 Redis host = redis
 
