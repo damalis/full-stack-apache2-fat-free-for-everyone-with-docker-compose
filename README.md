@@ -240,6 +240,8 @@ $db=new DB\SQL(
 
 [https://fatfreeframework.com/3.8/databases](https://fatfreeframework.com/3.8/databases)
 
+[https://mariadb.com/kb/en/configuring-mariadb-with-option-files/](https://mariadb.com/kb/en/configuring-mariadb-with-option-files/)
+
 #### Redis and HTTP Caching
 
 There is a good Cache Engine User Guide that covers how the cache engine works and gives you tips to improve your application and your database queries, as they can be cached by F3 as well. You really should have read it.
