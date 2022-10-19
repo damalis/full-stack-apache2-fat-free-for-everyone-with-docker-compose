@@ -250,7 +250,7 @@ if [ -x "$(command -v docker)" ] && [ -x "$(command -v docker-compose)" ]; then
 				if [ ! -z `docker ps -q -f "status=running" --no-trunc | grep $(docker-compose ps -q webserver)` ]; then break; fi
 			done			
 			echo ""
-			echo "Reloading Apache2 ssl configuration"
+			echo "Reloading webserver ssl configuration"
 			docker exec webserver httpd -k restart > /dev/null 2>&1
 			echo "Ok."
 			echo ""
