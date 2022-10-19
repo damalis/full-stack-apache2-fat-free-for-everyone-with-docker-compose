@@ -195,6 +195,8 @@ You can now use the `up` command:
 docker-compose up -d
 ```
 
+[https://docs.docker.com/engine/reference/run/](https://docs.docker.com/engine/reference/run/)
+
 ### Website
 
 You should see the "Hello, world!" page in your browser. If not, please check if your PHP installation satisfies Fat-Free's requirements.
@@ -246,11 +248,11 @@ $db=new DB\SQL(
 
 There is a good Cache Engine User Guide that covers how the cache engine works and gives you tips to improve your application and your database queries, as they can be cached by F3 as well. You really should have read it.
 
-[https://fatfreeframework.com/3.8/cache](https://fatfreeframework.com/3.8/cache)
-
 Redis host = redis
 
 Redis host port = 6379
+
+[https://fatfreeframework.com/3.8/cache](https://fatfreeframework.com/3.8/cache)
 
 ### phpMyAdmin
 
