@@ -37,6 +37,12 @@ Create rules to open ports to the internet, or to a specific IPv4 address or ran
 - [Manual Configuration and Installation](#manual)
 - [Portainer Installation](#portainer)
 - [Usage](#usage)
+	- [Website](#website)
+	- [Webserver](#webserver)
+	- [Database](#database)
+	- [Redis](#redis)
+	- [phpMyAdmin](#phpmyadmin)
+	- [backup](#backup)					  
 
 ## Automatic
 
@@ -195,7 +201,7 @@ You can now use the `up` command:
 docker-compose up -d
 ```
 
-#### Docker run reference
+### Docker run reference
 
 [https://docs.docker.com/engine/reference/run/](https://docs.docker.com/engine/reference/run/)
 
@@ -230,7 +236,7 @@ add and/or remove fat-free site folders and files with any ftp client program in
 
 add or remove code in the ```./webserver/extra/httpd-ssl.conf``` file for custom apache2/httpd configurations
 
-[https://httpd.apache.org/docs/2.4/en/configuring.html](https://httpd.apache.org/docs/2.4/en/configuring.html)
+[https://httpd.apache.org/docs/2.4/](https://httpd.apache.org/docs/2.4/)
 
 #### Database
 
