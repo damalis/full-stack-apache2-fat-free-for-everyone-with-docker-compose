@@ -207,27 +207,27 @@ docker-compose up -d
 
 ### Website
 
-You should see the "Hello, world!" page in your browser. If not, please check if your PHP installation satisfies Fat-Free's requirements.
+You should see the "Wordpress installation" page in your browser. If not, please check if your PHP installation satisfies WordPress's requirements.
 
 ```
 https://example.com
 ```
 
-add or remove code in the ```./php-fpm/php/conf.d/security.ini``` file for custom php.ini configurations
+add or remove code in the ./php-fpm/php/conf.d/security.ini file for custom php.ini configurations
 
 [https://www.php.net/manual/en/configuration.file.php](https://www.php.net/manual/en/configuration.file.php)
 
-add or remove code in the ```./php-fpm/php-fpm.d/z-www.conf``` file for php-fpm configurations
+Copy and paste the following code in the ./php-fpm/php-fpm.d/z-www.conf file for php-fpm configurations at 1Gb Ram Host
 
 Or you should make changes custom host configurations then must restart service
-
-```
-docker container restart fat-free
-```
 
 FPM uses php.ini syntax for its configuration file - php-fpm.conf, and pool configuration files.
 
 [https://www.php.net/manual/en/install.fpm.configuration.php](https://www.php.net/manual/en/install.fpm.configuration.php)
+
+```
+docker container restart fat-free
+```
 
 add and/or remove fat-free site folders and files with any ftp client program in ```./fat-free/webapp``` folder.
 <br />You can also visit `https://example.com` to access website after starting the containers.
