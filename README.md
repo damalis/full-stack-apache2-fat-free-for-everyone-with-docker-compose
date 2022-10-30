@@ -207,7 +207,7 @@ docker-compose up -d
 
 ### Website
 
-You should see the "Wordpress installation" page in your browser. If not, please check if your PHP installation satisfies WordPress's requirements.
+You should see the "Hello, world!" page in your browser. If not, please check if your PHP installation satisfies Fat-Free's requirements.
 
 ```
 https://example.com
