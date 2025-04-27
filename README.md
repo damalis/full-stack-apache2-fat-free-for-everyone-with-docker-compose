@@ -270,7 +270,7 @@ docker compose up -d
 
 ### Website
 
-You should see the "Hello, world!" page in your browser. If not, please check if your PHP installation satisfies Fat-Free's requirements.
+You should see the "Fat-Free Framework" page in your browser. If not, please check if your PHP installation satisfies Fat-Free's requirements.
 
 ```
 https://example.com
